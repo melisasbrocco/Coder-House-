@@ -69,7 +69,7 @@ body {
     grid-column-end: 4;
     grid-row-start: 3; 
     grid-row-end: 4; 
-    background-image: url(/imagen/actualidad.jpg);
+    background-image: url(./imagen/actualidad.jpg);
     background-size: cover;
 }
 
