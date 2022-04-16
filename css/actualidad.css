@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Noto Serif', serif;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 300px;
+    gap: 10px;
+    background-color: rgb(212, 209, 205);
+    margin: 20px auto; 
+}
+
+h1 {
+    background-color: rgb(228, 56, 56);
+    color: snow;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    background-color: white;
+}  
+
+.secciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 30px;
+    background-color: rgb(245, 238, 238);
+    background-size: contain;
+    border: 1px black solid;
+    border-radius: 2px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1; 
+    grid-row-end: 2; 
+}
+
+.actualidad {
+    width: 100px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2; 
+    grid-row-end: 3; 
+}
+
+.noti {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3; 
+    grid-row-end: 4; 
+    background-image: url(/imagen/actualidad.jpg);
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white; 
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5; 
+    grid-row-end: 6; 
+    height: 20px; 
+    justify-content: space-around;
+}
