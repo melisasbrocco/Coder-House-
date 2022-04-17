@@ -69,8 +69,15 @@ body {
     grid-column-end: 4;
     grid-row-start: 3; 
     grid-row-end: 4; 
-    background-image: url(/imagen/actualidad.jpg);
+    background-image: url(../imagen/actualidad.jpg);
     background-size: cover;
+}
+
+.noti:hover {
+    cursor: pointer;
+    transform:scale(1.05);
+    transition: 0.4s;
+    box-shadow: 1px 2px 3px white
 }
 
 footer {
