@@ -9,7 +9,7 @@ html {
 
 .contenedor {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: 100px 200px 100px 200px 50px;
     gap: 10px;
     background-color: rgb(212, 209, 205);
@@ -84,7 +84,28 @@ header {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 3; 
-    grid-row-end: 4; 
+    grid-row-end: 4;  
+}
+
+.actualidad:hover {
+    cursor: pointer;
+    transform:scale(1.05);
+    transition: 0.4s;
+    box-shadow: 1px 2px 3px white
+}
+
+.genero:hover {
+    cursor: pointer;
+    transform:scale(1.05);
+    transition: 0.4s;
+    box-shadow: 1px 2px 3px white
+}
+
+.deporte:hover {
+    cursor: pointer;
+    transform:scale(1.05);
+    transition: 0.4s;
+    box-shadow: 1px 2px 3px white
 }
 
 .noticia1 {
@@ -143,3 +164,4 @@ footer {
     height: 20px; 
     justify-content: space-around;
 }
+
